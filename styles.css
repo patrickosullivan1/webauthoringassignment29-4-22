@@ -57,7 +57,6 @@ main ul {
 	overflow: hidden;
 	clear: all;
 	align-items: center;
-	align
 	position: sticky;
 	border: medium;
 	border-color: #000011;
@@ -77,40 +76,13 @@ main li a:hover {
 	}
 
 main li a:visited 	{
-	color: #FC5054;
+	color: #919191;
 }
 
-.active	{
-    background-color: #fb1712;
-    color: #ffffff;		
+main li a:active	{
+    background-color: greenyellow;		
 		}
 
-.Dropdown{
-		float: left;
-		overflow: visible;
-	}
-	.Dropdown-content{
-		display: none;
-		position: absolute;
-		background-color: #f9f9f9;
-		min-width: 100px;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-		z-index: 1;
-	}
-	.Dropdown-content a {
-		float: none;
-		color: black;
-		padding: 12px 16px;
-		text-decoration: none;
-		display: block;
-		text-align: left;
-	}
-	.Dropdown-content a:hover{
-		background-color: #ddd;
-	}
-	.Dropdown:hover .Dropdown-content{
-		display: block;
-}
  main li     {
 	float: left;
 	border-right: 5px solid #bbb;
